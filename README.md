@@ -26,6 +26,7 @@
 > [goimports][gimp-git-lnk] **•**
 > [golint][glint-git-lnk] **•**
 > [jsonlint][jlint-git-lnk] **•**
+> [kubeval][kubeval-git-lnk] **•**
 > [linkcheck][linkcheck-git-lnk] **•**
 > [mypy][mypy-git-lnk] **•**
 > [php-cs-fixer][pcsf-git-lnk] **•**
@@ -71,12 +72,13 @@ changes will be introduced).
 | Docker tag      | Build from [docker-terraform-docs](https://github.com/cytopia/docker-terraform-docs) | Build from [terraform-docs](https://github.com/terraform-docs/terraform-docs) |
 |-----------------|----------------------------------|---------------------------|
 | `latest`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Branch: master](https://github.com/terraform-docs/terraform-docs) |
+| `0.16.0`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.16.0](https://github.com/terraform-docs/terraform-docs/tree/v0.16.0) |
+| `0.15.0`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.15.0](https://github.com/terraform-docs/terraform-docs/tree/v0.15.0) |
 | `0.14.1`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.14.1](https://github.com/terraform-docs/terraform-docs/tree/v0.14.1) |
 | `0.14.0`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.14.0](https://github.com/terraform-docs/terraform-docs/tree/v0.14.0) |
 | `0.13.0`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.13.0](https://github.com/terraform-docs/terraform-docs/tree/v0.13.0) |
 | `0.12.1`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.12.1](https://github.com/terraform-docs/terraform-docs/tree/v0.12.1) |
 | `0.12.0`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.12.0](https://github.com/terraform-docs/terraform-docs/tree/v0.12.0) |
-| `0.12.0-beta.1` | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.12.0-beta.1](https://github.com/terraform-docs/terraform-docs/tree/v0.12.0-beta.1) |
 | `0.11.2`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.11.2](https://github.com/terraform-docs/terraform-docs/tree/v0.11.2) |
 | `0.11.1`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.11.1](https://github.com/terraform-docs/terraform-docs/tree/v0.11.1) |
 | `0.11.0`        | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.11.0](https://github.com/terraform-docs/terraform-docs/tree/v0.11.0) |
@@ -87,9 +89,6 @@ changes will be introduced).
 | `0.8.2`         | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.8.2](https://github.com/terraform-docs/terraform-docs/tree/v0.8.2) |
 | `0.8.1`         | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.8.1](https://github.com/terraform-docs/terraform-docs/tree/v0.8.1) |
 | `0.8.0`         | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.8.0](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0) |
-| `0.8.0-rc.3`    | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.8.0-rc.3](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0-rc.3) |
-| `0.8.0-rc.2`    | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.8.0-rc.2](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0-rc.2) |
-| `0.8.0-rc.1`    | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.8.0-rc.1](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0-rc.1) |
 | `0.7.0`         | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.7.0](https://github.com/terraform-docs/terraform-docs/tree/v0.7.0) |
 | `0.6.0`         | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.6.0](https://github.com/terraform-docs/terraform-docs/tree/v0.6.0) |
 | `0.5.0`         | [Branch: master](https://github.com/cytopia/docker-terraform-docs) | [Tag: v0.5.0](https://github.com/terraform-docs/terraform-docs/tree/v0.5.0) |
@@ -108,12 +107,13 @@ you will have to take care yourself and update your CI tools every time a new ta
 | Docker tag            | Build from [docker-terraform-docs](https://github.com/cytopia/docker-terraform-docs) | Build from [terraform-docs](https://github.com/terraform-docs/terraform-docs) |
 |-----------------------|----------------------------------|---------------------------|
 | `latest-<tag>`        | Tag: `<tag>` | [Branch: master](https://github.com/terraform-docs/terraform-docs) |
+| `0.16.0-<tag>`        | Tag: `<tag>` | [Tag: v0.16.0](https://github.com/terraform-docs/terraform-docs/tree/v0.16.0) |
+| `0.15.0-<tag>`        | Tag: `<tag>` | [Tag: v0.15.0](https://github.com/terraform-docs/terraform-docs/tree/v0.15.0) |
 | `0.14.1-<tag>`        | Tag: `<tag>` | [Tag: v0.14.1](https://github.com/terraform-docs/terraform-docs/tree/v0.14.1) |
 | `0.14.0-<tag>`        | Tag: `<tag>` | [Tag: v0.14.0](https://github.com/terraform-docs/terraform-docs/tree/v0.14.0) |
 | `0.13.0-<tag>`        | Tag: `<tag>` | [Tag: v0.13.0](https://github.com/terraform-docs/terraform-docs/tree/v0.13.0) |
 | `0.12.1-<tag>`        | Tag: `<tag>` | [Tag: v0.12.1](https://github.com/terraform-docs/terraform-docs/tree/v0.12.1) |
 | `0.12.0-<tag>`        | Tag: `<tag>` | [Tag: v0.12.0](https://github.com/terraform-docs/terraform-docs/tree/v0.12.0) |
-| `0.12.0-beta.1-<tag>` | Tag: `<tag>` | [Tag: v0.12.0-beta.1](https://github.com/terraform-docs/terraform-docs/tree/v0.12.0-beta.1) |
 | `0.11.2-<tag>`        | Tag: `<tag>` | [Tag: v0.11.2](https://github.com/terraform-docs/terraform-docs/tree/v0.11.2) |
 | `0.11.1-<tag>`        | Tag: `<tag>` | [Tag: v0.11.1](https://github.com/terraform-docs/terraform-docs/tree/v0.11.1) |
 | `0.11.0-<tag>`        | Tag: `<tag>` | [Tag: v0.11.0](https://github.com/terraform-docs/terraform-docs/tree/v0.11.0) |
@@ -124,9 +124,6 @@ you will have to take care yourself and update your CI tools every time a new ta
 | `0.8.2-<tag>`         | Tag: `<tag>` | [Tag: v0.8.2](https://github.com/terraform-docs/terraform-docs/tree/v0.8.2) |
 | `0.8.1-<tag>`         | Tag: `<tag>` | [Tag: v0.8.1](https://github.com/terraform-docs/terraform-docs/tree/v0.8.1) |
 | `0.8.0-<tag>`         | Tag: `<tag>` | [Tag: v0.8.0](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0) |
-| `0.8.0-rc.3-<tag>`    | Tag: `<tag>` | [Tag: v0.8.0-rc.3](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0-rc.3) |
-| `0.8.0-rc.2-<tag>`    | Tag: `<tag>` | [Tag: v0.8.0-rc.2](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0-rc.2) |
-| `0.8.0-rc.1-<tag>`    | Tag: `<tag>` | [Tag: v0.8.0-rc.1](https://github.com/terraform-docs/terraform-docs/tree/v0.8.0-rc.1) |
 | `0.7.0-<tag>`         | Tag: `<tag>` | [Tag: v0.7.0](https://github.com/terraform-docs/terraform-docs/tree/v0.7.0) |
 | `0.6.0-<tag>`         | Tag: `<tag>` | [Tag: v0.6.0](https://github.com/terraform-docs/terraform-docs/tree/v0.6.0) |
 | `0.5.0-<tag>`         | Tag: `<tag>` | [Tag: v0.5.0](https://github.com/terraform-docs/terraform-docs/tree/v0.5.0) |
@@ -405,6 +402,7 @@ linter below for reproducible local or remote CI tests:
 | [golint][glint-git-lnk]          | [![glint-hub-img]][glint-hub-lnk]     | Go         | Lint Go code |
 | [eslint][elint-git-lnk]          | [![elint-hub-img]][elint-hub-lnk]     | Javascript | Lint Javascript code |
 | [jsonlint][jlint-git-lnk]        | [![jlint-hub-img]][jlint-hub-lnk]     | JSON       | Lint JSON files **<sup>[1]</sup>** |
+| [kubeval][kubeval-git-lnk]       | [![kubeval-hub-img]][kubeval-hub-lnk] | K8s        | Lint Kubernetes files |
 | [checkmake][cm-git-lnk]          | [![cm-hub-img]][cm-hub-lnk]           | Make       | Lint Makefiles |
 | [phpcbf][pcbf-git-lnk]           | [![pcbf-hub-img]][pcbf-hub-lnk]       | PHP        | PHP Code Beautifier and Fixer |
 | [phpcs][pcs-git-lnk]             | [![pcs-hub-img]][pcs-hub-lnk]         | PHP        | PHP Code Sniffer |
@@ -447,6 +445,10 @@ linter below for reproducible local or remote CI tests:
 [alint-git-lnk]: https://github.com/cytopia/docker-ansible-lint
 [alint-hub-img]: https://img.shields.io/docker/pulls/cytopia/ansible-lint.svg
 [alint-hub-lnk]: https://hub.docker.com/r/cytopia/ansible-lint
+
+[kubeval-git-lnk]: https://github.com/cytopia/docker-kubeval
+[kubeval-hub-img]: https://img.shields.io/docker/pulls/cytopia/kubeval.svg
+[kubeval-hub-lnk]: https://hub.docker.com/r/cytopia/kubeval
 
 [gfmt-git-lnk]: https://github.com/cytopia/docker-gofmt
 [gfmt-hub-img]: https://img.shields.io/docker/pulls/cytopia/gofmt.svg
